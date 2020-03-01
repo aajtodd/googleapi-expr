@@ -2,6 +2,7 @@
 
 # Update from the origin
 # git merge -s ours --no-commit googleorigin/master 
-git rm -rf expr/
-git read-tree --prefix=expr/ -u googleorigin/master:google/api/expr
+git rm -rf google/
+git read-tree --prefix=google/api/ -u googleorigin/master:google/api
+git read-tree --prefix=google/rpc/ -u googleorigin/master:google/rpc
 # git commit

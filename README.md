@@ -1,2 +1,2 @@
-This repo is a copy a specific subdirectory of the googleapi repo. The repo itslef is quite large and I don't want to pick the whole thing up as a submodule. This should make it easier to consume. 
+This repo is a copy specific subdirectories of the googleapi repo to support the Rust implementation of the Common Expression Language. The repo itself is quite large and I don't want to pick the whole thing up as a submodule. This should make it easier to consume. 
 
